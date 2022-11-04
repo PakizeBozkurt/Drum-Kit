@@ -2,17 +2,25 @@
 
 let numOfDrumBtn = document.querySelectorAll(".drum").length;
 for (let i = 0; i < numOfDrumBtn; i++) {
-  document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-    let btnInnerHTML = this.innerHTML;
+  
+    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+    
+        let btnInnerHTML = this.innerHTML;
 
-    makeSound(btnInnerHTML);
+         makeSound(btnInnerHTML);
+
+         btnAnimation(btnInnerHTML);
   });
 }
 
 //Dtecting Keyboard Press
 
 document.addEventListener("keypress", function (event) {
-  makeSound(event.key);
+  
+    makeSound(event.key);
+
+    btnAnimation(event.key);
+
 });
 
 function makeSound(key) {
@@ -56,3 +64,15 @@ function makeSound(key) {
       console.log(btnInnerHTML);
   }
 }
+
+
+function btnAnimation(currentKey) {
+
+  let activeBtn = document.querySelector(".", + currentKey);
+
+  activeBtn.classList.add("pressed");
+  
+  setTimeout(function(){
+      activeBtn.classList.remove("pressed");
+  }, 100);
+  }
