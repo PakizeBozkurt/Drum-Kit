@@ -25,6 +25,17 @@ This is a simple web application that allows you to play drum sounds by clicking
 
 4. Enjoy the interactive button animations as you play!
 
+## Demo
+
+You can see a live demo of the Drum Kit Web App [here](#).
+
+## File Structure
+
+- `index.html`: The main HTML file that contains the structure of the web app.
+- `styles.css`: The CSS file for styling the web app.
+- `app.js`: The JavaScript file that handles button clicks, keyboard events, and sound playback.
+- `sounds/`: This directory contains the audio files for the drum sounds.
+
 
 
 
