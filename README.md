@@ -27,7 +27,7 @@ This is a simple web application that allows you to play drum sounds by clicking
 
 ## Demo
 
-You can see a live demo of the Drum Kit Web App [here](#).
+You can see a live demo of the Drum Kit Web App [here]("https://drumki.netlify.app/").
 
 ## File Structure
 
