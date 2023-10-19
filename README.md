@@ -36,6 +36,6 @@ You can see a live demo of the Drum Kit Web App [here](#).
 - `app.js`: The JavaScript file that handles button clicks, keyboard events, and sound playback.
 - `sounds/`: This directory contains the audio files for the drum sounds.
 
-
+Feel free to fork, modify, and use this code for your own projects.
 
 
